@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+}
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --dark: #353333;
+    --light: #787878;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+main {
+    max-width: min(500px, 90%);
+    margin-inline: auto;
+}
+
+a {
+    color: var(--light);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.git-logo {
+    width: 100px;
+}
